@@ -1,3 +1,10 @@
 export const Cars = () => {
-  return <div>Cars</div>;
+  return (
+    <section
+      className="section h-screen flex items-center bg-yellow-200"
+      id="cars"
+    >
+      Cars
+    </section>
+  );
 };
